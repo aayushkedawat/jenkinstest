@@ -19,10 +19,11 @@ pipeline {
             steps {
                 echo "Building"
                 // sh "cd android"
-                dir("folder") {
-                    sh "pwd"
+                dir("android") {
+                    // sh "pwd"
+                    sh "bundle exec fastlane distributeProd"
                     }
-                sh "bundle exec fastlane distributeProd"
+                
                 }
             }
     }
