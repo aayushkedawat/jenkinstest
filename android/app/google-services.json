@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "753718784296",
+    "firebase_url": "https://letsmeet-74d21-default-rtdb.firebaseio.com",
+    "project_id": "letsmeet-74d21",
+    "storage_bucket": "letsmeet-74d21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753718784296:android:a51596ad0b896cd31ee01d",
+        "android_client_info": {
+          "package_name": "com.ak.letsmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753718784296-fglajs4t8a4tetbhkn9oeg00dt4g4cgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY1DEB3mwWvppTOqhZvUbBigde2dB0ocI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753718784296-fglajs4t8a4tetbhkn9oeg00dt4g4cgp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "753718784296-tsmo2oat2jr3sl318hum7e2hk6f2jruc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ak.letsmeet"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753718784296:android:accd80d98310ecdc1ee01d",
+        "android_client_info": {
+          "package_name": "com.jenkinstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753718784296-fglajs4t8a4tetbhkn9oeg00dt4g4cgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY1DEB3mwWvppTOqhZvUbBigde2dB0ocI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753718784296-fglajs4t8a4tetbhkn9oeg00dt4g4cgp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "753718784296-tsmo2oat2jr3sl318hum7e2hk6f2jruc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ak.letsmeet"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753718784296:android:6fab393c6377620b1ee01d",
+        "android_client_info": {
+          "package_name": "com.poc.dashclicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753718784296-fglajs4t8a4tetbhkn9oeg00dt4g4cgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY1DEB3mwWvppTOqhZvUbBigde2dB0ocI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753718784296-fglajs4t8a4tetbhkn9oeg00dt4g4cgp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "753718784296-tsmo2oat2jr3sl318hum7e2hk6f2jruc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ak.letsmeet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

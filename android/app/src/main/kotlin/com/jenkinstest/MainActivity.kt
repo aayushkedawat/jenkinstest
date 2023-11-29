@@ -1,4 +1,4 @@
-package com.example.jenkinstest
+package com.jenkinstest
 
 import io.flutter.embedding.android.FlutterActivity
 
