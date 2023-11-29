@@ -31,9 +31,10 @@ pipeline {
                 // sh "cd android"
                 dir("android") {
                     // sh "pwd"
-                    sh 'gradle init'
-                    sh "echo 'building..'"
+                    
                     withGradle {
+                        sh 'gradle init'
+                    sh "echo 'building..'"
                         // sh 'gradle wrapper build'
                          sh "bundle exec fastlane distributeProd"
                         }
