@@ -18,7 +18,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building"
-                sh "cd android"
+                // sh "cd android"
+                dir("folder") {
+                    sh "pwd"
+                    }
                 sh "bundle exec fastlane distributeProd"
                 }
             }
