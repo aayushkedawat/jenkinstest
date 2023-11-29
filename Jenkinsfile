@@ -18,7 +18,7 @@ pipeline {
                     // sh "pwd"
             sh "bundle config set --local path 'vendor/bundle'"
             // install bundles if they're not installed
-            sh "bundle check || bundle install --jobs=4 --retry=3"
+            sh "bundle check || bundle install --retry=3"
                     }
             // set the local path for bundles in vendor/bundle
             
@@ -36,7 +36,7 @@ pipeline {
                         // sh 'gradle init'
                     sh "echo 'building..'"
                         // sh "gradle wrapper"
-                         sh "fastlane distributeProd"
+                         sh "bundle exec fastlane distributeProd"
                         }
                    
                     }
