@@ -5,6 +5,7 @@ pipeline {
     environment {
         LC_ALL = 'en_US.UTF-8'
     }
+    echo "Hey"
     stages {
       stage('Setup') {
         steps {
