@@ -6,7 +6,7 @@ pipeline {
         LC_ALL = 'en_US.UTF-8'
     }
     tools {
-        gradle 7.5 
+        gradle
     }
     stages {
       stage('Setup') {
