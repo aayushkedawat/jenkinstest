@@ -35,7 +35,7 @@ pipeline {
                     withGradle {
                         // sh 'gradle init'
                     sh "echo 'building..'"
-                        sh "gradle wrapper"
+                        // sh "gradle wrapper"
                          sh "bundle exec fastlane distributeProd"
                         }
                    
