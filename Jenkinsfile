@@ -5,7 +5,7 @@ pipeline {
     environment {
         LC_ALL = 'en_US.UTF-8'
     }
-    echo "Hey"
+    
     stages {
       stage('Setup') {
         steps {
@@ -17,7 +17,7 @@ pipeline {
             sh "bundle config set --local path 'vendor/bundle'"
             // install bundles if they're not installed
             sh "bundle check || bundle install --jobs=4 --retry=3"
-            }
+                    }
             // set the local path for bundles in vendor/bundle
             
             }
@@ -29,12 +29,12 @@ pipeline {
                 // sh "cd android"
                 dir("android") {
                     // sh "pwd"
-                    // sh 'gradle init'
-                    // sh "echo 'building..'"
+                    sh 'gradle init'
+                    sh "echo 'building..'"
                     withGradle {
-                        sh "bundle exec fastlane distributeProd"
-                        }
                         // sh 'gradle wrapper build'
+                         sh "bundle exec fastlane distributeProd"
+                        }
                    
                     }
                 
