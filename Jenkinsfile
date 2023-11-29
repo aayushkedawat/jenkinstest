@@ -36,7 +36,7 @@ pipeline {
                         // sh 'gradle init'
                     sh "echo 'building..'"
                         // sh "gradle wrapper"
-                         sh "bundle exec fastlane distributeProd"
+                         sh "fastlane distributeProd"
                         }
                    
                     }
