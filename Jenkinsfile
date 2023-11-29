@@ -7,7 +7,7 @@ pipeline {
         steps {
             echo "Setup"
             // Install bundler in order to use fastlane
-            sh "gem install bundler -n /usr/local/bin"
+            sh "gem install bundler"
             // set the local path for bundles in vendor/bundle
             sh "bundle config set --local path 'vendor/bundle'"
             // install bundles if they're not installed
